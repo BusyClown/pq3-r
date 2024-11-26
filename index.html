@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Plaza Quellaveco</title>
+
+   <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="myAnim">
+        <div id="logo" class="logo">
+            <img src="src/images/logoAngloamerica.svg" alt="logoAnglo" id="logoAnglo" class="logoAnglo">
+        </div>
+    </header>
+
+    <main id="app" class="app myAnim">
+        <div id="superior">
+            <section id="marcoContainer">
+                <div id="marco" class="marco myAnim">
+                    <div id="logoConteiner">
+                        <img src="src/images/plaza3.png" alt="logoEvent" id="logoEvent" class="logoEvent">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="screen1" class="screen">
+            <section>
+                <div id="registration" >
+                    <div id="form-container">
+                        <form method="post" id="registrationForm">
+                            <div id="form-group">
+                                <h1>Edición Orgullo por Moquegua</h1>
+                                <input type="text" id="dni" class="btn" name="dni" required placeholder="DNI/CARNÉ DE EXTRANJERÍA">
+                                <input type="text" id="company" class="btn" name="company" required placeholder="EMPRESA">
+                                <button type="submit">REGISTRARSE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="screen2" class="screen">
+            <section>
+                <div id="registration">
+                    <div id="form-container">
+                        <div id="registrationForm">
+                            
+                            <h2>Se registro con éxito</h2>
+                            <button type="reset" id="reset-btn">REINICIAR</button>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <script src="src/scripts/showScreen.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
